@@ -62,6 +62,10 @@
 .orange {
   color: #e95a08;
 }
+.white{
+  color: rgb(255, 255, 255);
+}
+
 section div h3 {
   font-size: 65px;
   font-weight: 700;
@@ -119,4 +123,113 @@ section div p {
 .content-down{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+}
+
+/* 2nd main */
+.trust-content{
+  max-width: 1140px;
+  margin: 200px 190px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trust{
+  height: 286px;
+  width: 286px;
+}
+.trust-text{
+  margin-left: 70px;
+}
+.trust-text h3{
+  font-weight: 700;
+  font-size: 50px;
+  margin-left: -20px;
+}
+
+.trust-text ul{
+  padding-left: 10px;
+}
+.trust-text ul li{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* last section of main*/
+.last-sec{
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 190px 0;
+}
+.plant-left{
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.left-1{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url('/assets/deal-bloom.png');
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 206px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.left-1 p{
+  font-weight: 700;
+  font-size: 20px;
+}
+.left-1 a{
+  font-weight: 600;
+  font-size: 16px;
+}
+.left-2{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url('/assets/deal-ana.png');
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 206px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
+.left-2 p{
+  font-weight: 700;
+  font-size: 20px;
+}
+.left-2 a{
+  font-weight: 600;
+  font-size: 16px;
+}
+.plant-right{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url('/assets/deal-zabo.png');
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 753px;
+  height: 424px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 28px;
+}
+.plant-right p{
+  font-weight: 700;
+  font-size: 40px;
+}
+.plant-right a{
+  font-weight: 600;
+  font-size: 28px;
 }
