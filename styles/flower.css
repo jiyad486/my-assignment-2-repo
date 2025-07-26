@@ -74,4 +74,49 @@ section div p {
   margin-top: 92px;
 }
 /* main */
+.content-card{
+  max-width: 1140px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 190px;
+  text-align: center;
 
+}
+.content-up p{
+  font-size: 22px;
+}
+.card{
+  width: 100%;
+  height: 485px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.btn{
+  background-color: rgb(233, 90, 8);
+  border: none;
+  width: 270px;
+  height: 50px;  
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.lily{
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.usd{
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 700;
+  margin: 5px 0 10px;
+}
+.content-down{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
