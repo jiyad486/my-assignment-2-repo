@@ -171,7 +171,7 @@ section div p {
   font-weight: 700;
 }
 .deals p {
-  font-size: 22;
+  font-size: 22px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 16px;
@@ -352,13 +352,13 @@ button {
 
 /* mobile */
 
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 600px) {
   *{
-    max-width: 584px;
+    max-width: 600px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .home, .shop, .about {
     display: none;
@@ -369,9 +369,11 @@ button {
   }
   .banner{
     flex-direction: column-reverse;
-    margin-top: 25px;
-    margin-bottom: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
   }
+
   .banner-left{
     margin-top: 25px;
     width: 400px;
@@ -464,6 +466,9 @@ section div h3{
 }
 .div-4{
   margin-top: 10px;
+}
+.trust{
+  display: none;
 }
 
 }
