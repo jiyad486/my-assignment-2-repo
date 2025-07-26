@@ -62,7 +62,7 @@
 .orange {
   color: #e95a08;
 }
-.white{
+.white {
   color: rgb(255, 255, 255);
 }
 
@@ -78,142 +78,166 @@ section div p {
   margin-top: 92px;
 }
 /* main */
-.content-card{
+.content-card {
   max-width: 1140px;
   justify-content: center;
   align-items: center;
   margin: 0 190px;
   text-align: center;
-
 }
-.content-up p{
+.content-up p {
   font-size: 22px;
 }
-.card{
+.card {
   width: 100%;
   height: 485px;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
-.btn{
+.btn {
   background-color: rgb(233, 90, 8);
   border: none;
   width: 270px;
-  height: 50px;  
+  height: 50px;
 }
-.btn a{
+.btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
-.lily{
+.lily {
   color: rgb(17, 17, 17);
   font-size: 22px;
   font-weight: 500;
   margin: 5px 0;
 }
-.usd{
+.usd {
   color: rgb(17, 17, 17);
   font-size: 22px;
   font-weight: 700;
   margin: 5px 0 10px;
 }
-.content-down{
+.content-down {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
 }
 
 /* 2nd main */
-.trust-content{
+.trust-content {
   max-width: 1140px;
   margin: 200px 190px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.trust{
+/* .tr-img{
+  position: relative;
   height: 286px;
   width: 286px;
+} */
+.trust {
+  height: 286px;
+  width: 286px;
+  position: absolute;
+  top: 1950px;
+  left: 630px;
+  z-index: 1;
 }
-.trust-text{
+.trust-text {
   margin-left: 70px;
 }
-.trust-text h3{
+.trust-text h3 {
   font-weight: 700;
   font-size: 50px;
   margin-left: -20px;
 }
 
-.trust-text ul{
+.trust-text ul {
   padding-left: 10px;
 }
-.trust-text ul li{
+.trust-text ul li {
   color: rgba(0, 0, 0, 0.5);
+}
+.deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 133px;
+}
+.deals h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.deals p {
+  font-size: 22;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 16px;
 }
 
 /* last section of main*/
-.last-sec{
+.last-sec {
   max-width: 1140px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 120px 190px 0;
 }
-.plant-left{
+.plant-left {
   /* justify-content: center; */
   /* align-items: center; */
   /* text-align: center; */
 }
-.left-1{
+.left-1 {
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url('/assets/deal-bloom.png');
+  background-image: url("/assets/deal-bloom.png");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   width: 367px;
-  height: 206px;
+  height: 201px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
 }
-.left-1 p{
+.left-1 p {
   font-weight: 700;
   font-size: 20px;
 }
-.left-1 a{
+.left-1 a {
   font-weight: 600;
   font-size: 16px;
 }
-.left-2{
+.left-2 {
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url('/assets/deal-ana.png');
+  background-image: url("/assets/deal-ana.png");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   width: 367px;
-  height: 206px;
+  height: 198px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
   border-radius: 20px;
-
 }
-.left-2 p{
+.left-2 p {
   font-weight: 700;
   font-size: 20px;
 }
-.left-2 a{
+.left-2 a {
   font-weight: 600;
   font-size: 16px;
 }
-.plant-right{
+.plant-right {
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url('/assets/deal-zabo.png');
+  background-image: url("/assets/deal-zabo.png");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   width: 753px;
@@ -225,11 +249,105 @@ section div p {
   border-radius: 20px;
   margin-left: 28px;
 }
-.plant-right p{
+.plant-right p {
   font-weight: 700;
   font-size: 40px;
 }
-.plant-right a{
+.plant-right a {
   font-weight: 600;
   font-size: 28px;
+}
+
+/* footer */
+.email {
+  background-color: rgba(7, 51, 79, 0.4);
+  background-image: url("/assets/news-letter-bg.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.subscribe {
+  width: 830px;
+  height: 50px;
+  display: flex;
+}
+.subscribe input,
+button {
+  border: none;
+  margin: auto 305;
+  width: 100%;
+}
+.email h3 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.subscribe input {
+  width: 644px;
+  padding: 15px;
+}
+.subscribe button {
+  width: 186px;
+  background-color: #e95a08;
+  font-weight: 600;
+}
+
+.last-cont{
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px 190px;
+}
+.div-2 ul{
+  color: #6B7280;
+
+}
+.div-3 ul{
+  color: #6B7280;
+
+}
+.div-2 ul li{
+  text-decoration: none;
+}
+.div-2 ul li a{
+  text-decoration: none;
+  color: #6B7280;
+}
+.div-3 ul li{
+  text-decoration: none;
+}
+.div-3 ul li a{
+  text-decoration: none;
+  color: #6B7280;
+
+}
+
+.div-1 p{
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+.li-margin{
+  margin-top: 30px;
+  list-style: none;
+}
+.m-left{
+  margin-left: 100px;
+}
+.m-left-1{
+  margin-left: 60px;
+}
+.div-4 img{
+  margin-left: 20px;
+}
+.twitter{
+  position: relative;
+  top: -10px;
 }
